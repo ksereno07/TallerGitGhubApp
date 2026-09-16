@@ -173,9 +173,43 @@ fun primera_pantalla() {
             fontWeight = FontWeight.Bold,
             modifier = Modifier
                 .padding(
-                    all = 25.dp
+                    all = 20.dp
+                )
+        )
+        Text(
+            text = "SOBRE MI MATERIA FAVORITA",
+            fontSize = 20.sp,
+            color = Color.Gray,
+            textAlign = TextAlign.Center,
+            fontWeight = FontWeight.Bold,
+            modifier = Modifier
+
+        )
+        Text(
+            text = " Me apasiona todo lo que sea programar apps, inteligencia artifical, ya que " +
+                    " para mi punto de vista son como el futuro de hoy en dia, es algo que se si si " +
+                    " quieres ayudar o aportar algo en la vida. ",
+            fontSize = 18.sp,
+            color = Color.Gray,
+            textAlign = TextAlign.Center,
+            modifier = Modifier
+                .padding(
+                    all = 20.dp
                 )
 
+        )
+        Text(
+            text = "contactame",
+            fontSize = 27.sp,
+            color = Color.White,
+            textAlign = TextAlign.Center,
+            fontWeight = FontWeight.Bold,
+            modifier = Modifier
+                .background(color = Color.Blue, shape = RoundedCornerShape(size = 30.dp))
+                .padding(
+                    all = 20.dp
+                )
+                .fillMaxWidth()
         )
     }
 }
